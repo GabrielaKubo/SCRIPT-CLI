@@ -10,7 +10,7 @@ then
 	if [ \"$inst\" == \"s\" ];
 	then
 		cd /home/ubuntu/Desktop
-		git clone https://github.com/Gerencie-Monitoramento-de-totens/JAR.git
+		git clone https://github.com/Gerencie-Monitoramento-de-totens/JarCli.git
 		echo "Arquivo clonado com sucesso!"
 		echo "Executando arquivo"
 		cd /home/ubuntu/Desktop
