@@ -14,13 +14,13 @@ then
 		echo "Arquivo clonado com sucesso!"
 		echo "Executando arquivo"
 		cd /home/ubuntu/Desktop
-		cd JAR/gerencie/target
+		cd JarCli/com.mycompany_gerencie_jar_1.0-SNAPSHOT/target
 		java -jar gerencie-1.0-SNAPSHOT-jar-with-dependencies.jar
 	fi
 else
 		echo "Arquivo .jar já adquirido!"
 		echo "Executando arquivo"
 		cd /home/ubuntu/Desktop
-		cd JAR/gerencie/target
+		cd JarCli/com.mycompany_gerencie_jar_1.0-SNAPSHOT/target
 		java -jar gerencie-1.0-SNAPSHOT-jar-with-dependencies.jar
 fi
